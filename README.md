@@ -32,19 +32,19 @@ To build and run the Docker container with the Node.js application, follow these
 
    ```
    git clone https://github.com/Unnatimishra-14/Docker-demo-project.git
-   cd docker-demo-project
+   cd Docker-demo-project
    ```
 
 2. Build the Docker image:
 
    ```
-   docker build -t docker-demo-app .
+   docker build -t Docker-demo-app .
    ```
 
 3. Run the Docker container:
 
    ```
-   docker run -p 3000:3000 docker-demo-app
+   docker run -p 3000:3000 Docker-demo-app
    ```
 
 4. Access the application in your web browser at `http://localhost:3000`.
